@@ -1,0 +1,21 @@
+{
+	"id": "minecraft:warped_fungus_on_a_stick",
+	"Count": 1,
+	"tag": {
+		"maker": {
+			"Spells": [
+				{
+					"mana": 1,
+					"cooldown": 1,
+					"element": ["fire", "water", "ice"],
+					"type": ["self", "projectile", "beam", "horse"],
+					"plus": {
+						"range": 1
+					},
+					"spell": ["damage", "heal"],
+					"damage": 1
+				}
+			]
+		}
+	}
+}
