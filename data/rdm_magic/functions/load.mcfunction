@@ -8,4 +8,5 @@ scoreboard objectives add maker.mana dummy
 
 #test
 tag Onyx_T74 add sorcery_maker
-item replace entity Onyx_T74 weapon.mainhand with warped_fungus{"maker": {"Spells": [{"mana": 1,"cooldown": 1,"type": 1,"element": 1,"spell": 1,"damage": 1}]}}
+scoreboard players add Onyx_T74 maker.cooldown 0
+item replace entity Onyx_T74 hotbar.0 with warped_fungus_on_a_stick{"maker": {"Spells": [{"mana": 1,"cooldown": 1,"type": 3,"element": 1,"spell": 1,"damage": 1,"plus":{"range": 40,"value": 1,"horse": {"speed": 0.4d,"jump": 0.9d}}}]}}

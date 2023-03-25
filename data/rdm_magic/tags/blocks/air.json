@@ -6,6 +6,13 @@
 		"structure_void",
 
 		"#replaceable_plants",
-		"#flowers"
+		"#flowers",
+
+		"water",
+		"#underwater_bonemeals",
+		"kelp_plant",
+		"kelp",
+
+		"fire"
 	]
 }

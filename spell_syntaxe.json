@@ -12,6 +12,10 @@
 					"spell": ["damage", "heal"],
 					"plus": {
 						"range": 1,
+						"horse": {
+							"speed": 0.5,
+							"jump": 0.8
+						},
 						"value": 1
 					}
 				}
