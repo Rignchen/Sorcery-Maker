@@ -9,11 +9,11 @@
 					"cooldown": 1,
 					"element": ["fire", "water", "ice"],
 					"type": ["self", "projectile", "beam", "horse"],
-					"plus": {
-						"range": 1
-					},
 					"spell": ["damage", "heal"],
-					"damage": 1
+					"plus": {
+						"range": 1,
+						"value": 1
+					}
 				}
 			]
 		}
