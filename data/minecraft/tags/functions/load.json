@@ -1,3 +1,5 @@
 {
-  "values": ["rdm_magic:load"]
+  "values": [
+    "#load:_private/load"
+  ]
 }
