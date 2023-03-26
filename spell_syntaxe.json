@@ -8,8 +8,8 @@
 					"mana": 1,
 					"cooldown": 1,
 					"element": ["fire", "water", "ice"],
-					"type": ["self", "projectile", "beam", "horse"],
-					"spell": ["damage", "heal"],
+					"type": ["self", "projectile", "beam", "horse", "aura"],
+					"spell": ["damage", "heal", "break", "tp"],
 					"plus": {
 						"range": 1,
 						"horse": {
