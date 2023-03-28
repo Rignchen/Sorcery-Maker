@@ -1,5 +1,4 @@
 ## function rdm_magic:tick/spells/type
 
-scoreboard players add #serv maker.temp 1
+scoreboard players operation #temp maker.temp = @s maker.temp
 execute anchored eyes positioned ^ ^ ^2.5 summon marker rotated as @p[tag=maker.temp] run function rdm_magic:tick/spells/type/projectile/
-scoreboard players operation @s maker.temp = #serv maker.temp
