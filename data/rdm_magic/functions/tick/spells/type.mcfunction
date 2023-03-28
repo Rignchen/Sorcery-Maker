@@ -1,9 +1,9 @@
 ## function rdm_magic:tick/spells/mana
 
 scoreboard players operation @s maker.mana -= #temp maker.temp
-execute store result score #type maker.temp run data get storage marker:temp temp.type
-execute store result score #element maker.temp run data get storage marker:temp temp.element
-execute store result score #spell maker.temp run data get storage marker:temp temp.spell
+execute store result score #type maker.temp run data get storage maker:temp temp.type
+execute store result score #element maker.temp run data get storage maker:temp temp.element
+execute store result score #spell maker.temp run data get storage maker:temp temp.spell
 
 execute if score #type maker.temp matches 1 run function rdm_magic:tick/spells/spell
 execute if score #type maker.temp matches 2 run function rdm_magic:tick/spells/type/projectile/spawn
