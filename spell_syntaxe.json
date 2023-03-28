@@ -7,8 +7,8 @@
 				{
 					"mana": 1,
 					"cooldown": 1,
-					"element": ["fire", "water", "ice"],
-					"type": ["self", "projectile", "beam", "horse", "aura"],
+					"element": ["fire", "water", "ice", "nean"],
+					"type": ["self", "projectile", "beam", "horse", "aura", "trap"],
 					"spell": ["damage", "heal", "break", "tp"],
 					"plus": {
 						"range": 1,

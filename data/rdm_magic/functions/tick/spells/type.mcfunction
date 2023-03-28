@@ -10,3 +10,4 @@ execute if score #type maker.temp matches 2 run function rdm_magic:tick/spells/t
 execute if score #type maker.temp matches 3 anchored eyes positioned ^ ^ ^2 run function rdm_magic:tick/spells/type/beam/
 execute if score #type maker.temp matches 4 run function rdm_magic:tick/spells/type/horse/
 execute if score #type maker.temp matches 5 align y run function rdm_magic:tick/spells/type/aura/
+execute if score #type maker.temp matches 6 anchored eyes align y run function rdm_magic:tick/spells/type/trap/
