@@ -12,5 +12,4 @@ data modify entity @s Attributes[{Name:"minecraft:horse.jump_strength"}].Base se
 
 scoreboard players operation @s maker.temp = #element maker.temp
 function rdm_magic:tick/spells/type/horse/particle
-execute unless score #spell maker.temp matches 3 run function rdm_magic:tick/spells/spell
-execute if score #spell maker.temp matches 3 run fill ~1 ~1 ~1 ~-1 ~ ~-1 air destroy
+function rdm_magic:tick/spells/spell

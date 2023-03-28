@@ -1,0 +1,11 @@
+{
+    "values": [
+		"chain_command_block",
+		"command_block",
+		"repeating_command_block",
+
+		"bedrock",
+		"barrier",
+		"structure_block"
+	]
+}
