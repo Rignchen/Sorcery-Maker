@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"sneak": {
+			"trigger": "tick",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_sneaking": true
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "rdm_magic:action/sneak"
+	}
+}

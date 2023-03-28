@@ -17,7 +17,8 @@
 							"jump": 0.8
 						},
 						"value": 1
-					}
+					},
+					"name": "{\"text\":\"blabla\"}"
 				}
 			]
 		}
