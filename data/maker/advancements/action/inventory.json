@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"inv": {
+			"trigger": "inventory_changed"
+		}
+	},
+	"rewards": {
+		"function": "maker:action/inventory"
+	}
+}

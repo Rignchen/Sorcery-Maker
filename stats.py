@@ -44,13 +44,13 @@ def max_linie(mcfunction):
 			maxi = out
 			bigest = mcfunction
 
-print("advancements:" + str(surch(["json"],"data/rdm_magic/advancements")) + " (display: " + str(surch(["json"],"data/rdm_magic/advancements/display")) + ")")
-print("functions:" + str(surch(["mcfunction"],"data/rdm_magic/functions",max_linie,[])) + " (bigest: " + str(maxi) + " (" + bigest + "), total commands: " + str(total) + ")")
-print("predicates:" + str(surch(["json"],"data/rdm_magic/predicates")))
-print("recipes:" + str(surch(["json"],"data/rdm_magic/recipes")))
-print("items:" + str(surch(["json"],"data/rdm_magic/loot_tables/i")))
-print("loot tables:" + str(surch(["json"],"data/rdm_magic/loot_tables",exception="data/rdm_magic/loot_tables/i")))
-print("plugin:" + str(surch(["json"],"data/rdm_magic/tags/functions")))
+print("advancements:" + str(surch(["json"],"data/maker/advancements")) + " (display: " + str(surch(["json"],"data/maker/advancements/display")) + ")")
+print("functions:" + str(surch(["mcfunction"],"data/maker/functions",max_linie,[])) + " (bigest: " + str(maxi) + " (" + bigest + "), total commands: " + str(total) + ")")
+print("predicates:" + str(surch(["json"],"data/maker/predicates")))
+print("recipes:" + str(surch(["json"],"data/maker/recipes")))
+print("items:" + str(surch(["json"],"data/maker/loot_tables/i")))
+print("loot tables:" + str(surch(["json"],"data/maker/loot_tables",exception="data/maker/loot_tables/i")))
+print("plugin:" + str(surch(["json"],"data/maker/tags/functions")))
 if bad != []:print("/!\\ " + str(len(bad)) + " fonctions aren't comment: " + str(bad))
 if mt != []:print("/!\\ " + str(len(mt)) + " fonctions are empty: " + str(mt))
 input()

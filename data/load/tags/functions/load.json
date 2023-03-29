@@ -1,6 +1,6 @@
 {
   "values": [
     "#smithed.damage:load",
-	"rdm_magic:load"
+	"maker:load"
   ]
 }
