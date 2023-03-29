@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"inv": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"items": [
+								"iron_helmet"
+							],
+							"nbt": "{maker:{hat:{helmet:1b}}}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "maker:action/inventory/hat/helmet_to_hat"
+	}
+}

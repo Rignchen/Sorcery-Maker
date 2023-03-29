@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"inv": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"coal_block"
+						],
+						"nbt": "{maker:{hat:{coal:1b}}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "maker:action/inventory/hat/hat_to_helmet"
+	}
+}

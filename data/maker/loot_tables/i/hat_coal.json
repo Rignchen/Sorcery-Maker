@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal_block",
+					"functions": [
+						{
+							"function": "copy_nbt",
+							"source": {
+								"type": "storage",
+								"source": "maker:items"
+							},
+							"ops": [
+								{
+									"op": "merge",
+									"source": "all.hat.coal.tag",
+									"target": "{}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -3,11 +3,11 @@
 	"entity": "this",
 	"predicate": {
 		"equipment": {
-			"offhand": {
+			"head": {
 				"items": [
-					"warped_fungus_on_a_stick"
+					"coal_block"
 				],
-				"nbt": "{maker:{}}"
+				"nbt": "{maker:{hat:{coal:1b}}}"
 			}
 		}
 	}

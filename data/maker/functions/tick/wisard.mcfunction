@@ -1,6 +1,6 @@
 ## function maker:tick/player
 
-execute if score @s maker.mana < @s maker.max_mana run scoreboard players add @s maker.mana 1
+execute if score @s maker.mana < @s maker.max_mana run function maker:tick/rechrge_mana
 
 title @a[tag=maker.test] actionbar [{"score":{"name": "@s","objective": "maker.mana"}},{"text": "/"},{"score":{"name": "@s","objective": "maker.max_mana"}}]
 

@@ -12,3 +12,4 @@ tellraw @s {"text":"This datapack was made by ","extra":[{"text":"Rignchen","col
 #define score_holder #type
 #define entity @a[tag=maker.test]
 #define storage maker:temp
+#define storage maker:items

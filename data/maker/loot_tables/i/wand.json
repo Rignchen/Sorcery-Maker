@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_fungus_on_a_stick",
+					"functions": [
+						{
+							"function": "copy_nbt",
+							"source": {
+								"type": "storage",
+								"source": "maker:items"
+							},
+							"ops": [
+								{
+									"op": "merge",
+									"source": "all.wand.tag",
+									"target": "{}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
