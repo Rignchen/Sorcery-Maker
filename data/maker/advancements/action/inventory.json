@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "maker:action/inventory"
+		"function": "maker:action/inventory/"
 	}
 }
