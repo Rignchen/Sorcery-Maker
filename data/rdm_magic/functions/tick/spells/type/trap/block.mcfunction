@@ -1,8 +1,8 @@
 ## function rdm_magic:tick/spells/type/trap/ray
 
-execute positioned ~ ~.3 ~ run function rdm_magic:tick/spells/particle
-execute positioned ~ ~.3 ~ run function rdm_magic:tick/spells/particle
-execute positioned ~ ~.3 ~ run function rdm_magic:tick/spells/particle
+execute positioned ~ ~.3 ~ run function rdm_magic:tick/spells/element/particle
+execute positioned ~ ~.3 ~ run function rdm_magic:tick/spells/element/particle
+execute positioned ~ ~.3 ~ run function rdm_magic:tick/spells/element/particle
 
 tag @s add sorcery_maker
 tag @s add maker.trap

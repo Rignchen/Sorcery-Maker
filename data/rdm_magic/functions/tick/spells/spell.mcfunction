@@ -1,7 +1,7 @@
 ## function rdm_magic:tick/spells/type
 
-function rdm_magic:tick/spells/particle
-function rdm_magic:tick/spells/particle
+function rdm_magic:tick/spells/element/particle
+function rdm_magic:tick/spells/element/particle
 
 execute if score #spell maker.temp matches 1 run function rdm_magic:tick/spells/spell/damage/
 execute if score #spell maker.temp matches 2 run function rdm_magic:tick/spells/spell/heal/
