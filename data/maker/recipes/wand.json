@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"key": {
+		"S": {
+			"item": "stick"
+		},
+		"A":{
+			"item": "amethyst_cluster"
+		}
+	},
+	"pattern": [
+		"A",
+		"S",
+		"S"
+	],
+	"result": {
+		"item": "minecraft:knowledge_book"
+	}
+}

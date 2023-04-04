@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "maker:parchment"
+			}
+        }
+    },
+	"rewards": {
+		"function": "maker:craft/parchment"
+	}
+}
