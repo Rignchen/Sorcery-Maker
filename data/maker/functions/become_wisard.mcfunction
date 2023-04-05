@@ -1,4 +1,5 @@
-## function maker:load
+## advancement maker:display/wand
+## function maker:load/test/maker.test
 
 tag @s add sorcery_maker
 scoreboard players add @s maker.cooldown 0
