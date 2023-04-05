@@ -3,12 +3,15 @@
 	"key": {
 		"B": {
 			"item": "black_wool"
+		},
+		"A": {
+			"item": "medium_amethyst_bud"
 		}
 	},
 	"pattern": [
 		"  B",
 		" B ",
-		"BBB"
+		"BAB"
 	],
 	"result": {
 		"item": "minecraft:knowledge_book"
