@@ -8,4 +8,7 @@ execute if score #spell maker.temp matches 2 run function maker:tick/spells/spel
 execute if score #spell maker.temp matches 3 run function maker:tick/spells/spell/break/
 execute if score #spell maker.temp matches 4 run function maker:tick/spells/spell/tp/
 
+#plugin?
+function #maker:spells/spell
+
 function maker:tick/spells/element
