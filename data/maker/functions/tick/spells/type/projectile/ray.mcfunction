@@ -1,6 +1,7 @@
 ## function maker:tick/marker
 
 execute store result score #element maker.temp run data get entity @s data.maker.element
+execute store result score #spell maker.temp run data get entity @s data.maker.spell
 
 function maker:tick/spells/element/particle
 function maker:tick/spells/element/particle
