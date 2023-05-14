@@ -17,6 +17,7 @@ data modify storage maker:itemio scribbing_table append value {Slot: 4b,mode: "i
 ##ink
 #ink_sac
 data modify storage maker:itemio scribbing_table append value {Slot: 5b,mode: "input",filter: {id: "minecraft:ink_sac"},allowed_side: {north: 1b,south: 1b,east: 1b,west: 1b}}
+data modify storage maker:itemio scribbing_table append value {Slot: 5b,mode: "input",filter: {id: "minecraft:glow_ink_sac"},allowed_side: {north: 1b,south: 1b,east: 1b,west: 1b}}
 
 ##type
 #projectiles
@@ -44,13 +45,13 @@ data modify storage maker:itemio scribbing_table append value {Slot: 11b,mode: "
 
 ##spell
 #damages
-data modify storage maker:itemio scribbing_table append value {Slot: 19b,mode: "input",filter: {id: "minecraft:stone_sword"},allowed_side: {top: 1b}}
+data modify storage maker:itemio scribbing_table append value {Slot: 19b,mode: "input",filter: {id: "minecraft:iron_sword"},allowed_side: {top: 1b}}
 #heal
 data modify storage maker:itemio scribbing_table append value {Slot: 19b,mode: "input",filter: {id: "minecraft:golden_apple"},allowed_side: {top: 1b}}
 #tp
 data modify storage maker:itemio scribbing_table append value {Slot: 19b,mode: "input",filter: {id: "minecraft:ender_pearl"},allowed_side: {top: 1b}}
 #break
-data modify storage maker:itemio scribbing_table append value {Slot: 1b,mode: "input",filter: {id: "minecraft:iron_pickaxe"},allowed_side: {top: 1b}}
+data modify storage maker:itemio scribbing_table append value {Slot: 19b,mode: "input",filter: {id: "minecraft:iron_pickaxe"},allowed_side: {top: 1b}}
 
 ##actualise the blocks
 execute as @e[type=item_display,tag=maker.block.scribbing_table] run data modify entity @s item.tag.itemio.ioconfig set from storage maker:itemio scribbing_table

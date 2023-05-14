@@ -1,18 +1,18 @@
-base:			94401
+base:					94401
 
 
 
 warped_fungus_on_a_stick:
-	wand:		9440100
+	wand:				9440100
 
 paper:
-	parchment:	9440100
+	parchment:			9440100
 
 iron_helmet:
-	hat:		9440100
+	hat:				9440100
 
 coal_block:
-	hat:		9440100
+	hat:				9440100
 
 barrel:
-
+	scribbing_table:	9440100

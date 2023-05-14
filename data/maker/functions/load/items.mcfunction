@@ -4,7 +4,7 @@
 data modify storage maker:items all.wand set value {id:"minecraft:warped_fungus_on_a_stick", Count:1b,tag:{ctc:{from:"rignchen:sorcery_maker",id:"wand",traits:{"items":1b,"tool/weapon":1b}},maker:{Spells:[]},CustomModelData:9440100,display:{Name:'{"text":"Magic Wand","color":"gold","italic":false}',Lore:['{"text":"Sorcery Maker","color":"gray","italic":false}']}}}
 
 # parchment
-data modify storage maker:items all.parchment set value {id:"minecraft:paper", Count:1b,tag:{ctc:{from:"rignchen:sorcery_maker",id:"parchment",traits:{"items":1b}},maker:{Spell:{"mana": 0,"cooldown": 0,"element": 0,"type": 0,"spell": 0,"plus": {},"name": '{"text":"Unnamed Spell","color":"white","italic":false}'},Work:0b},CustomModelData:9440100,display:{Name:'{"text":"Parchment","color":"white","italic":false}',Lore:['{"text":"Sorcery Maker","color":"gray","italic":false}']}}}
+data modify storage maker:items all.parchment set value {id:"minecraft:paper", Count:1b,tag:{ctc:{from:"rignchen:sorcery_maker",id:"parchment",traits:{"items":1b}},maker:{Spell:{"mana": 0,"cooldown": 0,"element": 0,"type": 0,"spell": 0,"plus": {}},Work:0b},CustomModelData:9440100,display:{Name:'{"text":"Parchment","color":"white","italic":false}',Lore:['{"text":"Sorcery Maker","color":"gray","italic":false}']}}}
 
 # hat
 data modify storage maker:items all.hat.coal set value {  id:"minecraft:coal_block", Count:1b,tag:{ctc:{from:"rignchen:sorcery_maker",id:"hat_coal",traits:{"armor/helmet":1b}},maker:{hat:{coal:1b  }},CustomModelData:9440100,display:{Name:'{"text":"Magic Hat","color":"white","italic":false}',Lore:['{"text":"Sorcery Maker","color":"gray","italic":false}']}}}

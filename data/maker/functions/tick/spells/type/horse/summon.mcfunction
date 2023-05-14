@@ -11,5 +11,6 @@ data modify entity @s Attributes[{Name:"minecraft:generic.movement_speed"}].Base
 data modify entity @s Attributes[{Name:"minecraft:horse.jump_strength"}].Base set from storage maker:temp temp.plus.horse.jump
 
 scoreboard players operation @s maker.temp = #element maker.temp
+execute if score #element maker.temp matches 1 run effect give @s fire_resistance infinite 1 true
 function maker:tick/spells/type/horse/particle
 function maker:tick/spells/spell
