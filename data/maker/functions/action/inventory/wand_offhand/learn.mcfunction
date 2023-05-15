@@ -1,8 +1,8 @@
 ## function maker:action/inventory/wand_offhand/
 
 # get the spell from offhand
-data modify storage maker:temp temp set from entity @s Inventory[-1].tag.maker.Spell
-data modify storage maker:temp temp.name set from entity @s Inventory[-1].tag.display.Name
+data modify storage maker:temp temp set from entity @s Inventory[{Slot:-106b}].tag.maker.Spell
+data modify storage maker:temp temp.name set from entity @s Inventory[{Slot:-106b}].tag.display.Name
 item modify entity @s weapon.offhand maker:count_-1
 
 # put it in the wand

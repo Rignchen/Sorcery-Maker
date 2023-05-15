@@ -1,6 +1,6 @@
 ## function maker:tick/spells/mana
 
-scoreboard players operation @s maker.mana -= #temp maker.temp
+scoreboard players operation @s[gamemode=!creative] maker.mana -= #temp maker.temp
 execute store result score #type maker.temp run data get storage maker:temp temp.type
 execute store result score #element maker.temp run data get storage maker:temp temp.element
 execute store result score #spell maker.temp run data get storage maker:temp temp.spell
@@ -15,3 +15,7 @@ execute if score #type maker.temp matches 7 run function maker:tick/spells/type/
 
 #plugin?
 function #maker:spells/type
+
+#xp
+execute if score @s maker.xp_cooldown matches 0 run function maker:tick/spells/mana_tier/
+scoreboard players set @s maker.xp_cooldown 50
