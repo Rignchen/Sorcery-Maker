@@ -18,6 +18,7 @@ forceload remove 0 0
 # items
 data remove storage maker:items all
 data remove storage maker:itemio all
+data remove storage maker:gui all
 
 #blocks
 execute as @e[type=item_display,tag=maker.block] run kill

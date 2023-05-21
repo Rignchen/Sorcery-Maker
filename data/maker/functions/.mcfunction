@@ -14,3 +14,4 @@ tellraw @s {"text":"This datapack was made by ","extra":[{"text":"Rignchen","col
 #define storage maker:temp
 #define storage maker:items
 #define storage maker:itemio
+#define storage maker:gui
