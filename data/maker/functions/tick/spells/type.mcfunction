@@ -12,6 +12,7 @@ execute if score #type maker.temp matches 4 run function maker:tick/spells/type/
 execute if score #type maker.temp matches 5 align y run function maker:tick/spells/type/aura/
 execute if score #type maker.temp matches 6 anchored eyes align y run function maker:tick/spells/type/trap/
 execute if score #type maker.temp matches 7 run function maker:tick/spells/type/orbe/
+execute if score #type maker.temp matches 8 anchored eyes positioned ^ ^ ^.3 run function maker:tick/spells/type/chain/
 
 #plugin?
 function #maker:spells/type

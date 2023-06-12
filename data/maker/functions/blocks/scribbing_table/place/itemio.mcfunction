@@ -28,10 +28,14 @@ data modify storage maker:itemio all.scribbing_table append value {Slot: 1b,mode
 data modify storage maker:itemio all.scribbing_table append value {Slot: 1b,mode: "input",filter: {id: "minecraft:stick"},allowed_side: {top: 1b}}
 #horse
 data modify storage maker:itemio all.scribbing_table append value {Slot: 1b,mode: "input",filter: {id: "minecraft:saddle"},allowed_side: {top: 1b}}
-#trap
-data modify storage maker:itemio all.scribbing_table append value {Slot: 1b,mode: "input",filter: {id: "minecraft:tripwire_hook"},allowed_side: {top: 1b}}
 #aura
 #data modify storage maker:itemio all.scribbing_table append value {Slot: 1b,mode: "input",filter: {id: ""},allowed_side: {top: 1b}}
+#trap
+data modify storage maker:itemio all.scribbing_table append value {Slot: 1b,mode: "input",filter: {id: "minecraft:tripwire_hook"},allowed_side: {top: 1b}}
+#orbe
+#data modify storage maker:itemio all.scribbing_table append value {Slot: 1b,mode: "input",filter: {id: ""},allowed_side: {top: 1b}}
+#chain
+data modify storage maker:itemio all.scribbing_table append value {Slot: 1b,mode: "input",filter: {id: "minecraft:chain"},allowed_side: {top: 1b}}
 
 ##element
 #fire
