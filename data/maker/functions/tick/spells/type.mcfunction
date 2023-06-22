@@ -1,8 +1,7 @@
 ## function maker:tick/spells/mana
 
-scoreboard players operation @s[gamemode=!creative] maker.mana -= #temp maker.temp
+execute if entity @s[gamemode=!creative] run function maker:tick/spells/consume_mana
 execute store result score #type maker.temp run data get storage maker:temp temp.type
-execute store result score #element maker.temp run data get storage maker:temp temp.element
 execute store result score #spell maker.temp run data get storage maker:temp temp.spell
 
 execute if score #type maker.temp matches 1 run function maker:tick/spells/spell

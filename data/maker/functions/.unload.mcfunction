@@ -10,6 +10,8 @@ scoreboard objectives remove maker.mana
 scoreboard objectives remove maker.max_mana
 scoreboard objectives remove maker.xp
 scoreboard objectives remove maker.xp_cooldown
+scoreboard objectives remove maker.affinity
+scoreboard objectives remove maker.affinity_amount
 
 # important entities
 kill 8017d641-662b-4a9a-9ad5-57ff8ca6b451
