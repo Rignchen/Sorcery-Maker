@@ -1,0 +1,3 @@
+cmd admin mode
+cd in this folder
+mklinker <currentuser> <minecraftsavefoldername> <datapackfoldernameonthemap> <resourcepackfoldernamein.minecraftfolder> <currentfolderfullpath>

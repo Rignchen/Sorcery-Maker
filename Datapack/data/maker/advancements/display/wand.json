@@ -1,0 +1,22 @@
+{
+	"parent": "maker:display/",
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus_on_a_stick",
+			"nbt": "{CustomModelData:9440100}"
+		},
+		"title": "Welcome young wisard",
+		"description": "Craft yourself a magic wand"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "maker:wand"
+			}
+		}
+	},
+	"rewards": {
+		"function": "maker:become_wisard"
+	}
+}

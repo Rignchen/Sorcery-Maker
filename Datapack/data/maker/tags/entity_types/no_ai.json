@@ -1,0 +1,25 @@
+{
+	"values": [
+		"marker",
+		"area_effect_cloud",
+		"armor_stand",
+
+		"item",
+		"item_display",
+		"item_frame",
+		"glow_item_frame",
+
+		"chest_minecart",
+		"command_block_minecart",
+		"furnace_minecart",
+		"hopper_minecart",
+		"minecart",
+		"spawner_minecart",
+		"tnt_minecart",
+
+		"boat",
+		"chest_boat",
+
+		"player"
+	]
+}
