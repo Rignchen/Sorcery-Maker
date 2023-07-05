@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"B": {
+			"item": "black_wool"
+		},
+		"A": {
+			"item": "medium_amethyst_bud"
+		}
+	},
+	"pattern": [
+		"	B",
+		" B ",
+		"BAB"
+	],
+	"result": {
+		"item": "minecraft:knowledge_book"
+	}
+}

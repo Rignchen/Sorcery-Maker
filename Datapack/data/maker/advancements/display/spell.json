@@ -1,0 +1,34 @@
+{
+	"parent": "maker:display/wand",
+	"display": {
+		"icon": {
+			"item": "minecraft:paper",
+			"nbt": "{CustomModelData:9440100}"
+		},
+		"title": "Your first spell",
+		"description": "Make a spell and learn it"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"paper"
+							],
+							"nbt": "{maker:{Work:1}}"
+						},
+						"offhand": {
+							"items": [
+								"warped_fungus_on_a_stick"
+							],
+							"nbt": "{maker:{}}"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+warped_fungus_on_a_stick:
+	9440100 : wand
+
+paper:
+	9440100 : parchment
+
+iron_helmet and coal_block:
+	9440100 : hat
+
+barrel:
+	9440100 : scribbing table

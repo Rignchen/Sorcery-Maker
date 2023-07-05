@@ -1,0 +1,18 @@
+{
+	"values": [
+		"air",
+		"cave_air",
+		"void_air",
+		"structure_void",
+
+		"#replaceable_plants",
+		"#flowers",
+
+		"water",
+		"#underwater_bonemeals",
+		"kelp_plant",
+		"kelp",
+
+		"fire"
+	]
+}
