@@ -1,0 +1,6 @@
+{
+  "values": [
+		{"required": false,"id": "#smithed.crafter:block/place"},
+		"maker:blocks/place"
+	]
+}
