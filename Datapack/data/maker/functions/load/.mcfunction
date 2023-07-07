@@ -1,4 +1,4 @@
-## function #load
+## function #load:load
 
 # scoreboards
 function maker:load/scoreboards
